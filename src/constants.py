@@ -1,5 +1,5 @@
 DEVICE_TYPES = ["cpu", "cuda"]
-MODEL_TYPES = ["tiny", "base", "small", "medium", "large", "large"]
+MODEL_TYPES = ["tiny", "base", "small", "medium", "large", "large-v2", "large-v3"]
 TASK_TYPES = ["transcribe", "translate"]
 
 VAD_TYPES = ["silero", "silero:3.1", "auditok"]
