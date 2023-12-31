@@ -1,6 +1,6 @@
 import whisper_timestamped as whisper
 from typing import Literal
-import constants
+import whisper_yt_subtitle.constants as constants
 import torch
 from pytube import YouTube
 from datetime import datetime
