@@ -47,4 +47,3 @@ typing_extensions==4.9.0
 urllib3==2.1.0
 websockets==12.0
 whisper-timestamped==1.14.2
-zipp==3.17.0
