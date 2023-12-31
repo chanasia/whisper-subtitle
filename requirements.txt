@@ -1,4 +1,4 @@
-openai-whisper==20231117
 pytube==15.0.0
+openai-whisper==20231117
 torchaudio==2.1.2
 whisper-timestamped==1.14.2
