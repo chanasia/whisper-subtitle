@@ -7,7 +7,7 @@ with open("requirements.txt","r",encoding="utf-8") as requirements:
 	install_requires = requirements.read().splitlines()
  
 setup(
-  name="whisper-yt-subtitle",
+  name="whisper-subtitle",
   author="chanasia",
   description="Generate subtitle from youtube with Whisper.",
   long_description=long_description,
