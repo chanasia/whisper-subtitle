@@ -1,6 +1,6 @@
 import warnings
 import locale
-from src import YTGenerateSubtitle
+import YTGenerateSubtitle
 
 locale.getpreferredencoding = lambda: "UTF-8"
 warnings.filterwarnings('ignore')

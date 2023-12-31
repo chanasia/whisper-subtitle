@@ -1,6 +1,6 @@
 import whisper_timestamped as whisper
 from typing import Literal
-import src.constants as constants
+import constants
 import torch
 from pytube import YouTube
 from datetime import datetime
