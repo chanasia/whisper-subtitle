@@ -7,7 +7,7 @@
 
 # Installation
 ```bash
-pip install git+https://github.com/chanasia/whisper-yt-subtitle.git
+pip install git+https://github.com/chanasia/whisper-subtitle.git
 ```
 
 ## For Windows
