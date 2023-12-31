@@ -85,7 +85,7 @@ class YTGenerateSubtitle:
     if output_dir == "":
       output_dir = os.path.join('outputs', 'subtitle')
     
-    path_file = os.path.join(output_dir, f"{file_name}.srt")
+    path_file = os.path.join(output_dir, f"{file_name}.vtt")
     with open(path_file, 'w', encoding='utf-8') as file:
       file.write("WEBVTT\n\n")
       for subtitle in self.segments:

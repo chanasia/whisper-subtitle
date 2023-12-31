@@ -15,5 +15,6 @@ def main():
                              task="transcribe",
                              vad=True)
   subtitle.save_to_vtt()
+  
 if __name__ == "__main__":
   main()
