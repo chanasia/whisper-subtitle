@@ -20,6 +20,7 @@ from whisper_yt_subtitle import YTGenerateSubtitle
 
 url = "https://youtu.be/PUdyzSS3Ef0?si=ZurO7_eJYDF3y-0o"
 
+subtitle = YTGenerateSubtitle()
 subtitle.load_model("tiny", "cpu")
 subtitle.generate_subtitle(url_video=url,  
                             lang="ja",
