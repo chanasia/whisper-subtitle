@@ -16,7 +16,7 @@ If you are using Windows, you need to install [FFmpeg](https://www.gyan.dev/ffmp
 
 # Example in Python Script
 ```python
-from whisper_yt_subtitle import YTGenerateSubtitle
+from whisper_subtitle import YTGenerateSubtitle
 
 url = "https://youtu.be/PUdyzSS3Ef0?si=ZurO7_eJYDF3y-0o"
 
