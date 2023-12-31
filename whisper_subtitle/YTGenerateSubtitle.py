@@ -81,7 +81,7 @@ class YTGenerateSubtitle:
     if self.segments is None:
       raise ValueError('Ensure that subtitles are crafted before proceeding to save them.')
     if file_name == "":
-      file_name = self.media
+      file_name = os.path.basename(self.media)
     if output_dir == "":
       output_dir = os.path.join('outputs', 'subtitle')
     
@@ -100,7 +100,7 @@ class YTGenerateSubtitle:
     if self.segments is None:
       raise ValueError('Ensure that subtitles are crafted before proceeding to save them.')
     if file_name == "":
-      file_name = self.media
+      file_name = os.path.basename(self.media)
     if output_dir == "":
       output_dir = os.path.join('outputs', 'subtitle')
     
